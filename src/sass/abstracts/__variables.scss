@@ -1,0 +1,35 @@
+$color-primary-lighter: #0d0332;
+$color-primary: #040110; //#080221
+//$color-primary-lighter:#2C1E66; // #1A0D4C  #43347F
+$color-secondary: #ddf9f1;
+$color-secondary-darker: #c8e0d9;
+
+//pers
+$height-navbar: 60px;
+$z-index-navbar: 10;
+
+//change bp according to which size will be designed by default
+$breakpoints: (
+  "xsm": (
+    max-width: 576px,
+  ),
+  "sm": (
+    min-width: 576px,
+  ),
+  "md": (
+    min-width: 768px,
+  ),
+  "lg": (
+    min-width: 992px,
+  ),
+  "xlg": (
+    min-width: 1200,
+  ),
+);
+
+// 'xsmall':  ( min-width:  600px ), phone; 'small':  ( min-width:  767px ), tab;; 'medium': ( min-width:  992px ), lap;;'large':  ( min-width: 1200px ) desk
+/*<=576 portrait phone    //* xsm auto
+>=576px landscape phone <768px //* sm 540
+>=768px tablet <992 //* md 720px
+>=992px laptop <1200 //* lg 960px
+>= 1200 desktop //* xlg 1140px */

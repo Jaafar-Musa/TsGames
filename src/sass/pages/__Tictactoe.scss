@@ -1,0 +1,53 @@
+$border-Tictactoe:1px solid white;
+.Tictactoe{
+    color: aliceblue;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    &__Scoreboard{
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        width: 100%;
+        flex: 0.2;
+        &__Player{
+            h3{
+                font-size: 30px;
+            }
+            span{
+                font-size: 35px;
+                margin-left: 10px;
+            }
+            display: flex;
+        }
+    }
+    &__Board{
+        flex: 0.8;
+        display: grid;
+        grid-template-columns: repeat(3, minmax(0,1fr));
+        width: 50%;
+        // height: 50%;
+        &Box{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            &1,
+            &2,
+            &4,
+            &5 {
+              border-right: $border-Tictactoe;
+              border-bottom: $border-Tictactoe;
+            }
+            &3,
+            &6 {
+              border-bottom:$border-Tictactoe;
+            }
+            &7,
+            &8 {
+              border-right:$border-Tictactoe;
+            }
+        }
+    }
+}

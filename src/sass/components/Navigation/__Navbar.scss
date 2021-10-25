@@ -1,0 +1,21 @@
+.Navbar{
+    position: fixed;
+    z-index: $z-index-navbar;
+    width: 80%;
+    height: $height-navbar;
+    background-color: $color-primary + cc;
+    margin-top: $height-navbar/2;
+    // margin-top: math.div($height-navbar, 2);
+    border-radius: 50px;
+    color: aliceblue;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    h3{
+        flex: 0.3;
+    }
+    button{
+        flex: 0.7;
+        color: white;
+    }
+}

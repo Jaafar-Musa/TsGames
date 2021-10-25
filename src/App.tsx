@@ -1,4 +1,5 @@
 import React from "react";
+import "./css/main.css"
 import { Provider } from "react-redux";
 import { AnyAction, compose, createStore, Store } from "redux";
 import rootReducer from "./reducers";

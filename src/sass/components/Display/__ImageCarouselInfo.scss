@@ -1,0 +1,28 @@
+.ImageCarouselInfo {
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  bottom: 20px;
+  background-color: #ddf9f194;//$color-secondary;
+  width: 60%;
+  padding: 10px 20px;
+  align-items: flex-end;
+  border-radius: 20px;
+  h3 {
+    font-weight: 10;
+    text-align: center;
+    width: 100%;
+  }
+  p {
+    padding: 10px 20px;
+    text-align: left;
+  }
+  button {
+      border-radius:20px ;
+    background-color: $color-secondary-darker;
+    padding: 10px 20px;
+    margin: 10px 20px 5px 0px;
+    width: 20%;
+    box-shadow: 0px 0px 9px 0px rgba(97, 124, 128, 0.671);
+  }
+}
